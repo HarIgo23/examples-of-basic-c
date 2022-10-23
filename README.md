@@ -13,3 +13,9 @@ In mac
 ```shell
 clang basic-of-c/hello.c -o  basic-of-c/hello && ./basic-of-c/hello
 ```
+####
+Run function extern example
+```shell
+cd test-functions/extern/
+gcc app.c lib.c -o app && ./app
+```
