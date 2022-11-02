@@ -1,0 +1,4 @@
+Hello, Hello.
+That is
+test
+of coping the text.
