@@ -2,7 +2,7 @@
 
 #define SIZE 3
 
-void print_arr(double *, int);
+void print_arr(const double *, int);
 
 int main(void)
 {
@@ -12,10 +12,10 @@ int main(void)
     return 0;
 }
 
-void print_arr(double * arr, int n)
+void print_arr(const double * arr, int n)
 {
     printf("[");
-    double * ptr = arr;
+    const double * ptr = arr;
     while (ptr < arr + n - 1)
         printf("%.1lf, ", *ptr++);
     printf("%.1lf]\n", *ptr);
